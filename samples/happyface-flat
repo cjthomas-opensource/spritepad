@@ -1,0 +1,28 @@
+# Flat-coloured happy face.
+
+beginsprite happyface
+
+beginpalette
+. transparent
+y yellow c0c000
+b black 000000
+endpalette
+
+beginpicture 12 12
+
+. . . . . . . . . . . .
+. . . . y y y y . . . .
+. . y y y y y y y y . .
+. . y b b y y b b y . .
+. y y b b y y b b y y .
+. y y y y y y y y y y .
+. y y y y y y y y y y .
+. y y b y y y y b y y .
+. . y y b b b b y y . .
+. . y y y y y y y y . .
+. . . . y y y y . . . .
+. . . . . . . . . . . .
+
+endpicture
+
+endsprite
